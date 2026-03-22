@@ -1,8 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
     <loc>https://chiragpateltech.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chiragpateltech.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chiragpateltech.com/chirag-patel-muenchen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chiragpateltech.com/"/>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <url>
+    <loc>https://chiragpateltech.com/about-chirag-patel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chiragpateltech.com/about-chirag-patel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chiragpateltech.com/about-chirag-patel"/>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://chiragpateltech.com/profiles</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://chiragpateltech.com/media</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://chiragpateltech.com/chirag-patel-hidden-brains</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://chiragpateltech.com/chirag-patel-muenchen</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chiragpateltech.com/chirag-patel-muenchen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chiragpateltech.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chiragpateltech.com/"/>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
