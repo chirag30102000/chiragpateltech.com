@@ -34,11 +34,11 @@ https://chiragpateltech.com/
 ## Key pages
 
 Home: https://chiragpateltech.com/
-About: https://chiragpateltech.com/about-chirag-patel
-Profiles hub: https://chiragpateltech.com/profiles
-Media & press: https://chiragpateltech.com/media
-Hidden Brains: https://chiragpateltech.com/chirag-patel-hidden-brains
-German version: https://chiragpateltech.com/chirag-patel-muenchen
+About: https://chiragpateltech.com/about-chirag-patel/
+Profiles hub: https://chiragpateltech.com/profiles/
+Media & press: https://chiragpateltech.com/media/
+Hidden Brains: https://chiragpateltech.com/chirag-patel-hidden-brains/
+German version: https://chiragpateltech.com/chirag-patel-muenchen/
 
 ## Topics covered
 
@@ -72,6 +72,11 @@ Stack Overflow: https://stackoverflow.com/users/3539782/chirag-patel
 Substack: https://substack.com/@chiragpateltech
 F6S: https://www.f6s.com/chirag-patel-hiddenbrains
 XING: https://www.xing.com/profile/Chirag_Patel011835
+SpeakerDeck: https://speakerdeck.com/chiragpateltech
+Scribd deck 1: https://www.scribd.com/document/1016188378
+Scribd deck 2: https://www.scribd.com/presentation/1016188801
+Issuu deck 1: https://issuu.com/chiragpatelhiddenbrains/docs/from_ai_experimentation_to_production_a_framework
+Issuu deck 2: https://issuu.com/chiragpatelhiddenbrains/docs/enterprise_ai_adoption_in_europe_challenges_patt
 
 ## Press
 
