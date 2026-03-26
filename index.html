@@ -109,6 +109,12 @@
 .faq-q{font-size:16px;font-weight:700;color:var(--text);margin-bottom:8px}
 .faq-a{font-size:14px;color:var(--muted);margin:0;line-height:1.7}
 @media(max-width:768px){.hero-section{padding:24px}.profiles-2col{grid-template-columns:1fr}.stat-row{gap:8px}}
+.featured-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.featured-item{display:flex;align-items:center;gap:10px;padding:12px 16px;background:var(--bg2);border:1px solid var(--line);border-radius:var(--r-md);text-decoration:none;color:var(--text);font-size:14px;font-weight:600;transition:border-color .2s,background .2s}
+.featured-item:hover{border-color:var(--accent);background:var(--accent-soft)}
+.featured-item .fi-arrow{margin-left:auto;color:var(--hint);font-size:13px;flex-shrink:0}
+@media(max-width:900px){.featured-strip{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.featured-strip{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -187,6 +193,21 @@
         </a>
       </div>
     </div>
+  </div>
+
+  <!-- AS FEATURED IN -->
+  <div class="card section-gap">
+    <h2 class="sec-title" style="color:#7a5200">As Featured In</h2>
+    <p style="font-size:14px;color:var(--muted);margin-bottom:14px">Stevie Award coverage across global media</p>
+    <div class="featured-strip">
+      <a class="featured-item" href="https://apnews.com/press-release/ein-presswire-newsmatics/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence-bff6a86cfa01e59e1eb6a639d35866a0" target="_blank" rel="noopener" title="Chirag Patel Stevie Award — AP News">AP News<span class="fi-arrow">↗</span></a>
+      <a class="featured-item" href="https://wgntv.com/business/press-releases/ein-presswire/901660516/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="Chirag Patel Stevie Award — WGN 9 Chicago">WGN 9 Chicago<span class="fi-arrow">↗</span></a>
+      <a class="featured-item" href="https://kdvr.com/business/press-releases/ein-presswire/901660516/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="Chirag Patel Stevie Award — KDVR FOX 31 Denver">KDVR FOX 31 Denver<span class="fi-arrow">↗</span></a>
+      <a class="featured-item" href="https://www.cbs17.com/business/press-releases/ein-presswire/901660516/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="Chirag Patel Stevie Award — CBS 17 Raleigh">CBS 17 Raleigh<span class="fi-arrow">↗</span></a>
+      <a class="featured-item" href="https://www.wsav.com/business/press-releases/ein-presswire/901660516/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="Chirag Patel Stevie Award — NBC 3 Savannah">NBC 3 Savannah<span class="fi-arrow">↗</span></a>
+      <a class="featured-item" href="https://natlawreview.com/press-releases/chirag-patel-wins-stevie-award-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="Chirag Patel Stevie Award — National Law Review">National Law Review<span class="fi-arrow">↗</span></a>
+    </div>
+    <p style="font-size:13px;color:var(--hint);margin-top:12px">130+ global publications covered this story</p>
   </div>
 
   <!-- FOCUS AREAS -->
