@@ -108,7 +108,20 @@
 .faq-item{padding:18px 20px;background:var(--bg2);border:1px solid var(--line);border-radius:var(--r-lg);margin-bottom:14px}
 .faq-q{font-size:16px;font-weight:700;color:var(--text);margin-bottom:8px}
 .faq-a{font-size:14px;color:var(--muted);margin:0;line-height:1.7}
-@media(max-width:768px){.hero-section{padding:24px}.profiles-2col{grid-template-columns:1fr}.stat-row{gap:8px}}
+.featured-strip{margin-top:20px}
+.featured-heading{color:#7a5200}
+.featured-sub{font-size:14px;color:var(--muted);margin:-4px 0 14px}
+.featured-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.featured-link{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 16px;border:1px solid var(--line);border-radius:var(--r-md);background:var(--bg2);color:var(--text);font-weight:700;text-decoration:none;transition:all .18s ease;min-width:0}
+.featured-link:hover{border-color:#c8d4e2;background:#fff;transform:translateY(-1px);text-decoration:none}
+.featured-name{min-width:0;overflow-wrap:anywhere}
+.featured-note{margin-top:12px;font-size:13px;color:var(--muted)}
+@media(max-width:768px){
+  .hero-section{padding:24px}
+  .profiles-2col{grid-template-columns:1fr}
+  .stat-row{gap:8px}
+  .featured-grid{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
@@ -187,6 +200,39 @@
         </a>
       </div>
     </div>
+  </div>
+
+  <!-- AS FEATURED IN -->
+  <div class="card section-gap featured-strip">
+    <h2 class="sec-title featured-heading">As Featured In</h2>
+    <p class="featured-sub">Stevie Award coverage across global media</p>
+    <div class="featured-grid">
+      <a class="featured-link" href="https://apnews.com/press-release/ein-presswire-newsmatics/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence-bff6a86cfa01e59e1eb6a639d35866a0" target="_blank" rel="noopener" title="AP News coverage of Chirag Patel Stevie Award">
+        <span class="featured-name">AP News</span>
+        <span class="p-arr">↗</span>
+      </a>
+      <a class="featured-link" href="https://wgntv.com/business/press-releases/ein-presswire/901660516/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="WGN 9 Chicago coverage of Chirag Patel Stevie Award">
+        <span class="featured-name">WGN 9 Chicago</span>
+        <span class="p-arr">↗</span>
+      </a>
+      <a class="featured-link" href="https://kdvr.com/business/press-releases/ein-presswire/901660516/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="KDVR FOX 31 Denver coverage of Chirag Patel Stevie Award">
+        <span class="featured-name">KDVR FOX 31 Denver</span>
+        <span class="p-arr">↗</span>
+      </a>
+      <a class="featured-link" href="https://www.cbs17.com/business/press-releases/ein-presswire/901660516/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="CBS 17 Raleigh coverage of Chirag Patel Stevie Award">
+        <span class="featured-name">CBS 17 Raleigh</span>
+        <span class="p-arr">↗</span>
+      </a>
+      <a class="featured-link" href="https://www.wsav.com/business/press-releases/ein-presswire/901660516/chirag-patel-wins-stevie-award-for-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="NBC 3 Savannah coverage of Chirag Patel Stevie Award">
+        <span class="featured-name">NBC 3 Savannah</span>
+        <span class="p-arr">↗</span>
+      </a>
+      <a class="featured-link" href="https://natlawreview.com/press-releases/chirag-patel-wins-stevie-award-ai-and-digital-transformation-excellence" target="_blank" rel="noopener" title="National Law Review coverage of Chirag Patel Stevie Award">
+        <span class="featured-name">National Law Review</span>
+        <span class="p-arr">↗</span>
+      </a>
+    </div>
+    <div class="featured-note">130+ global publications covered this story</div>
   </div>
 
   <!-- FOCUS AREAS -->
